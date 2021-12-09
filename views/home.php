@@ -35,7 +35,7 @@
             <div class="sidebar-body">
                 <ul class="navigation-list">
                     <li class="navigation-list-item">
-                        <a href="./home.php" class="navigation-link active" >
+                        <a href="home.php" class="navigation-link active" >
                             <div class="row">
                                 <div class="col-2">
                                     <i class="fas fa-home"></i>
@@ -71,7 +71,7 @@
                         </a>
                     </li>
                     <li class="navigation-list-item">
-                        <a href="#" class="navigation-link">
+                        <a href="topup.php" class="navigation-link">
                             <div class="row">
                                 <div class="col-2">
                                     <i class="fas fa-money-bill-alt"></i>
