@@ -5,8 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../assets/css/sidebar.css">
+    <link rel="stylesheet" href="../assets/css/topup.css">
     <link rel="stylesheet" href="../assets/fontawesome/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <style>
+        .form-div{
+    border: 3px solid purple;
+    border-radius: 10px;
+    outline: none;
+    background:linear-gradient(35deg, #4442A6,rgba(119, 119, 255, 0.8));
+    height: 40vh;
+    width:50%;
+    margin-left: 20%;
+    margin-top: 10%;
+    
+    }
+    form{
+        margin-top: 10%;
+    }
+    </style>
     <title>Petty Cash</title>
 </head>
 <body>
@@ -52,7 +69,7 @@
                         </a>
                     </li>
                     <li class="navigation-list-item">
-                        <a href="#" class="navigation-link ">
+                        <a href="history.php" class="navigation-link ">
                             <div class="row">
                                 <div class="col-2">
                                     <i class="fas fa-history"></i>
@@ -76,7 +93,7 @@
                         </a>
                     </li>
                     <li class="navigation-list-item">
-                        <a href="#" class="navigation-link">
+                        <a href="contacts.php" class="navigation-link">
                             <div class="row">
                                 <div class="col-2">
                                     <i class="fas fa-address-book"></i>
@@ -88,7 +105,7 @@
                         </a>
                     </li>
                     <li class="navigation-list-item">
-                        <a href="#" class="navigation-link">
+                        <a href="settings.php" class="navigation-link">
                             <div class="row">
                                 <div class="col-2">
                                     <i class="fas fa-users-cog"></i>
@@ -128,7 +145,7 @@
                             <ul class="navbar-nav me-5 ms-auto mb-2 mb-lg-0 ">
                                 <li class="nav-item dropdown">
                                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                Name
+                                                Hubert
                                             </a>
                                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                                 <li><a class="dropdown-item" href="#">Edit Profile</a></li>
@@ -140,7 +157,18 @@
                         </div>
                     </div>
             </nav>
-            kljaklfjsdklafjsd
+                    <div class="form-div">
+                        <form action="home.php" class="me-3 ms-3">
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control input" id="amount" placeholder="GHS 100.00">
+                                <label for="amount">Enter Amount</label>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Top Up</button>
+
+                                <p class="mt-3 text-white">Amount is in Ghana cedis</p>
+                            </div>
+                        </form> 
+                    </div>
         </div>
 
     </div>

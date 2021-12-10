@@ -59,7 +59,7 @@
                         </a>
                     </li>
                     <li class="navigation-list-item">
-                        <a href="#" class="navigation-link ">
+                        <a href="history.php" class="navigation-link ">
                             <div class="row">
                                 <div class="col-2">
                                     <i class="fas fa-history"></i>
@@ -83,7 +83,7 @@
                         </a>
                     </li>
                     <li class="navigation-list-item">
-                        <a href="#" class="navigation-link">
+                        <a href="contacts.php" class="navigation-link">
                             <div class="row">
                                 <div class="col-2">
                                     <i class="fas fa-address-book"></i>
@@ -95,7 +95,7 @@
                         </a>
                     </li>
                     <li class="navigation-list-item">
-                        <a href="#" class="navigation-link">
+                        <a href="settings.php" class="navigation-link">
                             <div class="row">
                                 <div class="col-2">
                                     <i class="fas fa-users-cog"></i>
@@ -135,7 +135,7 @@
                             <ul class="navbar-nav me-5 ms-auto mb-2 mb-lg-0 ">
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                            Name
+                                            Hubert
                                     </a>
                                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                             <li><a class="dropdown-item" href="#">
@@ -149,7 +149,7 @@
                         </div>
                     </div>
             </nav>
-            <div class="container p-3">
+            <div class="container">
                 <div class="row text-white d-flex justify-content-center">
                     <div class="col-md-4 mb-2 me-5">
                         <div class="bg-first container">

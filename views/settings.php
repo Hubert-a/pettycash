@@ -141,7 +141,7 @@
                         </div>
                     </div>
             </nav>
-            request
+            settings
         </div>
 
     </div>

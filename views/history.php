@@ -141,7 +141,7 @@
                         </div>
                     </div>
             </nav>
-            request
+            History
         </div>
 
     </div>
