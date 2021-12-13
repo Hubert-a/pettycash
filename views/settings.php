@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../assets/css/sidebar.css">
+    <link rel="stylesheet" href="../assets/css/settings.css">
     <link rel="stylesheet" href="../assets/fontawesome/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <title>Petty Cash</title>
@@ -132,7 +133,7 @@
                                                 Hubert
                                             </a>
                                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                                <li><a class="dropdown-item" href="#">Edit Profile</a></li>
+                                                <li><a class="dropdown-item" href="settings.php">Edit Profile</a></li>
                                                 <li><hr class="dropdown-divider"></li>
                                                 <li><a class="dropdown-item" href="#">Logout</a></li>
                                             </ul>
@@ -141,7 +142,34 @@
                         </div>
                     </div>
             </nav>
-            settings
+            <div class="text-white ms-5 mt-5 form-div">
+                <h3 style="font-family: Georgia, 'Times New Roman', Times, serif;">Profile Settings</h3>
+                    <form>
+                        <div class="row">
+                            <div class="col-md-6">
+                                 <div class="mb-3">
+                                      <label for="name" class="form-label">Name</label>
+                                      <input type="text" class="form-control" id="name" aria-describedby="emailHelp">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                     <label for="username" class="form-label">Username</label>
+                                     <input type="text" class="form-control" id="username">
+                                </div>
+                            </div>
+                        </div>
+                                <div class="mb-3">
+                                     <label for="email" class="form-label">Email address</label>
+                                     <input type="text" class="form-control" id="email" aria-describedby="emailHelp">
+                                </div>
+                                <div class="mb-3">
+                                     <label for="role" class="form-label">Role</label>
+                                     <input type="text" class="form-control" id="role" aria-describedby="emailHelp">
+                                </div>
+                                <button type="submit" class="btn btn-primary" style="background:transparent;border:none;border-radius:0px;border-bottom:1px solid white;outline:none">Submit</button>
+                    </form>
+            </div>
         </div>
 
     </div>

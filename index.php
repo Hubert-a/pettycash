@@ -3,9 +3,9 @@
     <head>
         <meta charset="utf-8"> 
         <meta content="initial-scale=1.0, width=device-width" name="viewport" />
-        <title>MyDay | Welcome page</title>
-        <link rel="stylesheet" href="./css/bootstrap.min.css">
-        <link rel="stylesheet" href="../assets/fontawesome/css/all.min.css">
+        <title>PettyCash</title>
+        <link rel="stylesheet" href="./bootstrap-5.1.3-dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./assets/fontawesome/css/all.min.css">
         <link rel="stylesheet" href="./assets/css/index.css">
     </head>
 

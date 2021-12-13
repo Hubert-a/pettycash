@@ -118,7 +118,7 @@
                             </div>
                         </a>
                     </li>
-
+                    <a href="user-home.php" class="text-dark">user-home</a>
                 </ul>
 
             </div>
@@ -155,7 +155,7 @@
                         <div class="bg-first container">
                             <div class="d-flex justify-content-between">
 
-                                <div>
+                                <div style="font-family: Georgia, 'Times New Roman', Times, serif;">
                                     <h4>Your Balance</h4>
                                     <p class="h5 text-uppercase">ghs 4670.88</p>
                                 </div>
@@ -167,38 +167,37 @@
                     </div>
                     <div class="col-md-4 ms-5">
                         <div class="bg-first container">
-                            <div>
+                            <div style="font-family: Georgia, 'Times New Roman', Times, serif;">
                                 <h4>Office Account</h5>
                                 <h5>Total Expense</h5>
                             </div>
-                            <div class="expense">
+                            <div class="expense" style="font-family: Georgia, 'Times New Roman', Times, serif;">
                                 <p class="text-uppercase text-center h6">ghs 200.67</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <hr class="mb-5 me-5 ms-5">
-           <!-- <p class="h1">hi</p>-->
+            <hr class="mb-4 me-5 ms-5 text-white" style="border-bottom: 3px solid white;">
             <div class="tab-content me-3">
                         <div class="tab-pane show active" id="home1">
                             <div class="border mb-3 mt-0 rounded">
                                 <div class="d-flex justify-content-between">
-                                    <h5 class="header-title p-2 mb-0 text-success">Recent Requests</h5>
+                                    <h5 class="header-title p-2 mb-0 text-white">Recent Requests</h5>
                                     <a href="request.php" class="mt-2 me-3 see">See all</a>
                                 </div>
                                 <div class="table-responsive" style="height: 300px;">
-                                    <table class="table table-borderless table-striped table-nowrap mb-0">
+                                    <table class="table table-borderless table-dark table-striped table-nowrap mb-0">
                                         <tbody>
                                             
                                             <tr>
                                                 <td style="width: 30px;">
                                                     <div class="avatar-sm rounded bg-soft-info">
-                                                        <i class="fas fa-history ms-2 avatar-title text-info"></i>
+                                                        <i class="fas fa-history ms-2 avatar-title"></i>
                                                     </div>
                                                 </td>
                                                 <td>
-                                                    <p class="text-body font-weight-semibold text-center">Stationary Item</p>
+                                                    <p class="font-weight-semibold text-center">Stationary Item</p>
                                                 </td>
 
                                                 <td class="text-right">
@@ -208,12 +207,12 @@
                                             <tr>
                                                 <td style="width: 10px;">
                                                     <div class="avatar-sm rounded bg-soft-info">
-                                                        <i class="fas fa-history ms-2  font-4 avatar-title text-info"></i>
+                                                        <i class="fas fa-history ms-2  font-4 avatar-title"></i>
                                                     </div>
                                                 </td>
                                                 <td>
                                                     <p
-                                                        class="text-body font-weight-semibold text-center">Bolt fair to Oceanic</p>
+                                                        class="font-weight-semibold text-center">Bolt fair to Oceanic</p>
                                                     
                                                 </td>
 
@@ -224,12 +223,12 @@
                                             <tr>
                                                 <td style="width: 10px;">
                                                     <div class="avatar-sm rounded bg-soft-info">
-                                                        <i class="fas fa-history ms-2 font-4 avatar-title text-info"></i>
+                                                        <i class="fas fa-history ms-2 font-4 avatar-title"></i>
                                                     </div>
                                                 </td>
                                                 <td>
                                                     <p
-                                                        class="text-body font-weight-semibold text-center">Fuel for Company cars</p>
+                                                        class="font-weight-semibold text-center">Fuel for Company cars</p>
                                                     
                                                 </td>
 
@@ -240,12 +239,12 @@
                                             <tr>
                                                 <td style="width: 10px;">
                                                     <div class="avatar-sm rounded bg-soft-info">
-                                                        <i class="fas fa-history ms-2 font-4 avatar-title text-info"></i>
+                                                        <i class="fas fa-history ms-2 font-4 avatar-title"></i>
                                                     </div>
                                                 </td>
                                                 <td>
                                                     <p
-                                                        class="text-body font-weight-semibold text-center">Pizza for the boys</p>
+                                                        class="font-weight-semibold text-center">Pizza for the boys</p>
                                                     
                                                 </td>
 
@@ -256,13 +255,13 @@
                                             <tr>
                                                 <td style="width: 10px;">
                                                     <div class="avatar-sm rounded bg-soft-info">
-                                                        <i class="fas fa-history ms-2 font-4 avatar-title text-info"></i>
+                                                        <i class="fas fa-history ms-2 font-4 avatar-title"></i>
                                                     </div>
                                                 </td>
 
                                                 <td>
                                                     <p
-                                                        class="text-body font-weight-semibold text-center">Red Hoodie for men</p>
+                                                        class="font-weight-semibold text-center">Red Hoodie for men</p>
                                                     
                                                 </td>
                                                 <td class="text-right">
@@ -272,12 +271,12 @@
                                             <tr>
                                                 <td style="width: 10px;">
                                                     <div class="avatar-sm rounded bg-soft-info">
-                                                        <i class="fas fa-history ms-2 font-4 avatar-title text-info"></i>
+                                                        <i class="fas fa-history ms-2 font-4 avatar-title"></i>
                                                     </div>
                                                 </td>
                                                 <td>
                                                     <p
-                                                        class="text-body font-weight-semibold text-center">Designer Awesome T-Shirt</p>
+                                                        class="font-weight-semibold text-center">Designer Awesome T-Shirt</p>
                                                     
                                                 </td>
                                                 <td class="text-right">

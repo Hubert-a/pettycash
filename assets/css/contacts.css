@@ -1,0 +1,6 @@
+.page .content{
+    background: url(../images/coins.jpg);
+    background-size: cover;
+    background-repeat: none;
+    height: 100vh;
+}

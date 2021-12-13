@@ -4,26 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../assets/css/sidebar.css">
-    <link rel="stylesheet" href="../assets/css/topup.css">
+    <link rel="stylesheet" href="../assets/css/contacts.css">
     <link rel="stylesheet" href="../assets/fontawesome/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <title>Petty Cash</title>
-    <style>
-        .form-div{
-    border: none;
-    border-radius: 30px;
-    outline: none;
-    background:linear-gradient(35deg, #4442A6,rgba(119, 119, 255, 0.8));
-    height: 40vh;
-    width:50%;
-    margin-left: 20%;
-    margin-top: 10%;
-    padding: 20px;
-    /* background:transparent;border:none;border-radius:0px;border-bottom:1px solid white;outline:none */
-    }
-
-    </style>
 </head>
 <body>
 
@@ -44,7 +30,7 @@
             <div class="sidebar-body">
                 <ul class="navigation-list">
                     <li class="navigation-list-item">
-                        <a href="home.php" class="navigation-link active" >
+                        <a href="user-home.php" class="navigation-link active" >
                             <div class="row">
                                 <div class="col-2">
                                     <i class="fas fa-home"></i>
@@ -56,7 +42,7 @@
                         </a>
                     </li>
                     <li class="navigation-list-item">
-                        <a href="request.php" class="navigation-link ">
+                        <a href="user-request.php" class="navigation-link ">
                             <div class="row">
                                 <div class="col-2">
                                     <i class="fas fa-spinner"></i>
@@ -68,7 +54,7 @@
                         </a>
                     </li>
                     <li class="navigation-list-item">
-                        <a href="history.php" class="navigation-link ">
+                        <a href="user-history.php" class="navigation-link ">
                             <div class="row">
                                 <div class="col-2">
                                     <i class="fas fa-history"></i>
@@ -79,7 +65,7 @@
                             </div>
                         </a>
                     </li>
-                    <li class="navigation-list-item">
+                   <!-- <li class="navigation-list-item">
                         <a href="topup.php" class="navigation-link">
                             <div class="row">
                                 <div class="col-2">
@@ -90,9 +76,9 @@
                                 </div>
                             </div>
                         </a>
-                    </li>
+                    </li>-->
                     <li class="navigation-list-item">
-                        <a href="contacts.php" class="navigation-link">
+                        <a href="user-contacts.php" class="navigation-link">
                             <div class="row">
                                 <div class="col-2">
                                     <i class="fas fa-address-book"></i>
@@ -104,7 +90,7 @@
                         </a>
                     </li>
                     <li class="navigation-list-item">
-                        <a href="settings.php" class="navigation-link">
+                        <a href="user-settings.php" class="navigation-link">
                             <div class="row">
                                 <div class="col-2">
                                     <i class="fas fa-users-cog"></i>
@@ -156,18 +142,7 @@
                         </div>
                     </div>
             </nav>
-                    <div class="form-div">
-                        <h3 class="text-white ms-3" style="font-family: georgia;">Office Account</h3>
-                        <form action="home.php" class="me-3 ms-3">
-                            <div class="form-floating mb-3">
-                                <input type="text" class="form-control input" id="amount" placeholder="GHS 100.00" >
-                                <label for="amount">Enter Amount</label>
-                            </div>
-                                <button type="submit" class="btn btn-primary">Top Up</button>
-                                <p class="mt-3 text-white">Amount must be in Ghana cedis</p>
-                            
-                        </form> 
-                    </div>
+            user-contacts
         </div>
 
     </div>
